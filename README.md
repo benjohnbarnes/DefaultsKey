@@ -1,6 +1,6 @@
 #  `DefaultsKey`
 
-The DefaultsKey package provides `UserDefaultsKey<Value, Failure: Error>`, a typed wrapper for safe and simple access to Foundation's 
+DefaultsKey provides `UserDefaultsKey<Value, Failure: Error>`, a typed wrapper for safe and ergonomic access to Foundation's 
 `UserDefaults`.
 
 
