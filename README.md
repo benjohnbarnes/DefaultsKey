@@ -6,7 +6,7 @@ DefaultsKey provides `UserDefaultsKey<Value, Failure: Error>`, a typed wrapper f
 
 ## Basic Use
 
-Here's how you'd read or write a value in `UserDefaults` using a defaults key:
+Here's how you read or write a value in `UserDefaults` using `UserDefaultsKey`:
 
 ```swift
 let defaults = UserDefaults.standard
