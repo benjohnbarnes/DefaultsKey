@@ -11,16 +11,13 @@ Here's how you read or write a value in `UserDefaults` with `UserDefaultsKey`:
 ```swift
 let defaults = UserDefaults.standard
 
-// Read a value.
+/// Read a value.
 let isEnabled = defaults[.isFeatureEnabled]
 
-// Write a value.
+/// Write a value.
 defaults[.isFeatureEnabled] = isEnabled
-```
 
-A key declaration looks like this:
-
-```swift
+/// Declare the `Bool?` key used above.
 extension UserDefaultsKey<Bool?, Never> {
   static let isFeatureEnabled: Self = .bool("is-my-feature-enabled")
 }
